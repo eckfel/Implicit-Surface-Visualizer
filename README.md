@@ -8,15 +8,32 @@ https://github.com/eckfel/Implicit-Surface-Visualizer/assets/41958490/5e385fb0-a
 
 # Usage
 
-### Prerequisites: 
+## Prerequisites: 
 Docker and Docker-compose `https://docs.docker.com/compose/install/`
 
-### Installation
+## Installation
+### Clone repository
+Clone repository with SSH:
+```
+git clone git@github.com:eckfel/Implicit-Surface-Visualizer.git
+```
+
+or
+
+Clone repository with HTTPS:
+```
+git clone https://github.com/eckfel/Implicit-Surface-Visualizer.git
+```
+### Navigate to the project folder
+```
+cd visualization-tool/
+```
+### Build project
 ```
 docker-compose build
 ```
 
-### Run application
+## Run application
 ```
 docker-compose up
 ```
