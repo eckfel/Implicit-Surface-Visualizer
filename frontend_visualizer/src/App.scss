@@ -1,0 +1,85 @@
+@import "./theme.scss";
+
+.ImageHelper {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+
+.RemoveTopMargin {
+  margin-top: 0px;
+}
+
+.RemoveVerticalMargin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.AddTopMargin {
+  margin-top: 7px;
+}
+
+button {
+  padding: 7px;
+  font-size: calc(10px + 1vmin);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  border-radius: 30px;
+}
+
+.Reset-Camera {
+  bottom: 5vh;
+  right: 2vw;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0px;
+  background-color: $light;
+
+  svg {
+    background-color: $light;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.Reset-Camera:hover {
+  background-color: $contrast;
+
+  svg {
+    background-color: $contrast;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Raleway;
+  color: $dark;
+}
+
+:export {
+  dark: $dark;
+  bright: $bright;
+  contrast: $contrast;
+  light: $light;
+}

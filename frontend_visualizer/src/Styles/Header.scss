@@ -1,0 +1,24 @@
+@import "../theme.scss";
+
+.App-header {
+    min-height: 6vh;
+    width: 98vw;
+    position: absolute;
+    font-size: calc(5px + 2vmin);
+    color: $dark;
+    padding-left: 2vw;
+    background-color: $bright;
+}
+
+.logo {
+    vertical-align: middle;
+    height: 4vh;
+    margin-right: 15px;
+}
+
+.Header-Title {
+    text-decoration: underline;
+    text-decoration-color: $contrast;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 3px;
+}

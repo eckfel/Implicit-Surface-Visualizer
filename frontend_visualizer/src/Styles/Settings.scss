@@ -1,0 +1,118 @@
+@import '../theme.scss';
+
+.App-settings {
+    min-height: 5vh;
+    top: 37vh;
+    position: absolute;
+    color: $dark;
+    background-color: $translucent;
+    right: 2vw;
+    width: 22vw;
+    background-color: $bright;
+    max-height: 58vh;
+    overflow: scroll;
+}
+
+.MuiAccordion-rounded {
+    border-radius: 0px !important;
+}
+
+.Example {
+    text-decoration: underline;
+    text-decoration-color: $bright;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.Example:hover {
+    text-decoration-color: $contrast;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+select {
+    border: 0;
+    width: 100%;
+    margin-top: 11px;
+}
+
+.Download-button {
+    background-color: $dark;
+    color: $bright;
+    font-size: calc(10px + 1vmin);
+    width: 100%;
+    padding: 7px;
+    text-decoration-color: $dark;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.Download-button:hover {
+    text-decoration-color: $contrast;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $light;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: $bright;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: $dark;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px $contrast;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 17px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+@import'../theme.scss';
+
+.App-inputs {
+    min-height: 5vh;
+    top: 20vh;
+    position: absolute;
+    color: $dark;
+    right: 2vw;
+    padding: 1vw;
+    width: 20vw;
+    background-color: $bright;
+}
+
+input {
+    width: 99%;
+    font-size: calc(10px + 1vmin);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-family: AeonikFonoLight;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: $bright;
+}
+
+input:focus {
+    outline: none;
+    border-color: $contrast;
+    -webkit-transition: .4s;
+    transition: .4s;
+}

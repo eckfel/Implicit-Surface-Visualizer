@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), url(./fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+
+
+$dark: #1C1C27;
+$bright: #FFFBF7;
+$contrast: #FDF202;
+$light: #E0D8D5;
+$translucent: rgba(0, 0, 0, 0) !important;
+
+html * {
+    font-family: Raleway;
+    color: $dark;
+}
+
+:export {
+    dark: $dark;
+    bright: $bright;
+    contrast: $contrast;
+    light: $light;
+}

@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  visualizer-backend:
+    container_name: visualizer-backend
+    restart: always
+    build: "./backend_visualizer"
+    ports:
+      - "443:443"
+  visualizer-frontend:
+    container_name: visualizer-frontend
+    restart: always
+    build:
+      context: "./frontend_visualizer"
+      dockerfile: "Dockerfile"
+    ports:
+      - "3000:3000"
