@@ -1,4 +1,13 @@
+# Implicit Surface Visualization 
+
+The "Implicit Surface Visualization Tool" is a hobby project that simplifies understanding implicit surfaces. Implicit surfaces can be used to describe three-dimensional shapes with an equation $F(x,y,z)=0$. With this tool, you can input your own mathematical functions and visualize the resulting surfaces in 3D. There are different types of visualizations, two supported algorithms to calculate the implicit surfaces, interesting functions as examples, and the possibility of exporting the shape to use in other 3D software.
+
+## Demo
+
+https://github.com/eckfel/Implicit-Surface-Visualizer/assets/41958490/5e385fb0-a9c4-4073-92e2-d3c5600eb9f6
+
 # Usage
+
 ### Prerequisites: 
 Docker and Docker-compose `https://docs.docker.com/compose/install/`
 
