@@ -44,7 +44,7 @@ Navigate to `http://localhost:3000/` in your browser to view the application.
 
 - Python Flask Server
 - RESTful API for communication using JSON for data exchange
-- Support for Marching Cubes and Dual Contour algorithm (Implementation used from `https://github.com/BorisTheBrave/mc-dc/tree/master`)
+- Support for Marching Cubes and Dual Contour algorithm (Implementation used: `https://github.com/BorisTheBrave/mc-dc/tree/master`)
 
 ### API
 
