@@ -1,6 +1,6 @@
 # Implicit Surface Visualization 
 
-The "Implicit Surface Visualization Tool" is a hobby project that simplifies understanding implicit surfaces. Implicit surfaces can be used to describe three-dimensional shapes with an equation $F(x,y,z)=0$. With this tool, you can input your own mathematical functions and visualize the resulting surfaces in 3D. There are different types of visualizations, two supported algorithms to calculate the implicit surfaces, interesting functions as examples, and the possibility of exporting the shape to use in other 3D software.
+The **Implicit Surface Visualization** Tool is a hobby project that helps to understand and explore implicit surfaces through interactive visualization. Implicit surfaces can be used to describe three-dimensional shapes with an equation $F(x,y,z)=0$. With this tool, you can input your own mathematical functions and display the resulting surfaces in 3D. There are different types of visualizations, two supported algorithms to calculate the implicit surfaces, functions resulting in interesting shapes as examples, and the possibility of exporting the discovered shapes to other 3D software.
 
 ## Demo
 
