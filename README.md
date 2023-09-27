@@ -4,12 +4,12 @@ The **Implicit Surface Visualization** Tool is a hobby project that helps to und
 
 ## Demo
 
-https://github.com/eckfel/Implicit-Surface-Visualizer/assets/41958490/5e385fb0-a9c4-4073-92e2-d3c5600eb9f6
+https://github.com/eckfel/Implicit-Surface-Visualizer/assets/41958490/3b92f87b-1743-4c72-af05-6a5a5f6706f7
 
 # Usage
 
 ## Prerequisites: 
-Docker and Docker-compose `https://docs.docker.com/compose/install/`
+[Docker and Docker-compose](https://docs.docker.com/compose/install/)
 
 ## Installation
 ### Clone repository
@@ -37,7 +37,7 @@ docker-compose build
 ```
 docker-compose up
 ```
-Navigate to `http://localhost:3000/` in your browser to view the application.
+Navigate to [http://localhost:3000/](http://localhost:3000/) in your browser to view the application.
 
 # Application
 
@@ -61,7 +61,7 @@ Navigate to `http://localhost:3000/` in your browser to view the application.
 
 - Python Flask Server
 - RESTful API for communication using JSON for data exchange
-- Support for Marching Cubes and Dual Contour algorithm (Implementation used: `https://github.com/BorisTheBrave/mc-dc/tree/master`)
+- Support for Marching Cubes and Dual Contour algorithm (Implementation used: [https://github.com/BorisTheBrave/mc-dc/tree/master](https://github.com/BorisTheBrave/mc-dc/tree/master))
 
 ### API
 
@@ -96,10 +96,10 @@ Navigate to `http://localhost:3000/` in your browser to view the application.
 - Add testing
 
 # Interesting resources
-- Polygon Meshes vs. Parametric Surfaces vs. Implicit Surfaces `http://www.hao-li.com/cs420-fs2015/slides/Lecture04.1.pdf`
-- Explanation Marching Cubes (2D/3D), Dual Contouring `https://www.boristhebrave.com/2018/04/15/marching-cubes-tutorial/`
-- Working implicit surface visualizer `http://mikolalysenko.github.io/implicit-studio/`
-- Working JS .obj viewer `https://github.com/xmlyqing00/OBJViewer`
-- Using Three.js in React `https://blog.bitsrc.io/starting-with-react-16-and-three-js-in-5-minutes-3079b8829817`
-- Object Loader Three.js `https://sbcode.net/threejs/loaders-obj/`
-- Collection of algebraic surfaces `https://www.singsurf.org/djep/GWTASurf.php`
+- Polygon Meshes vs. Parametric Surfaces vs. Implicit Surfaces [http://www.hao-li.com/cs420-fs2015/slides/Lecture04.1.pdf](http://www.hao-li.com/cs420-fs2015/slides/Lecture04.1.pdf)
+- Explanation Marching Cubes (2D/3D), Dual Contouring [https://www.boristhebrave.com/2018/04/15/marching-cubes-tutorial/](https://www.boristhebrave.com/2018/04/15/marching-cubes-tutorial/)
+- Working implicit surface visualizer [http://mikolalysenko.github.io/implicit-studio/](http://mikolalysenko.github.io/implicit-studio/)
+- Working JS .obj viewer [https://github.com/xmlyqing00/OBJViewer](https://github.com/xmlyqing00/OBJViewer)
+- Using Three.js in React [https://blog.bitsrc.io/starting-with-react-16-and-three-js-in-5-minutes-3079b8829817](https://blog.bitsrc.io/starting-with-react-16-and-three-js-in-5-minutes-3079b8829817)
+- Object Loader Three.js [https://sbcode.net/threejs/loaders-obj/](https://sbcode.net/threejs/loaders-obj/)
+- Collection of algebraic surfaces [https://www.singsurf.org/djep/GWTASurf.php](https://www.singsurf.org/djep/GWTASurf.php)
